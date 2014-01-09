@@ -5,17 +5,19 @@ class FizzBuzz
     run(integer)
   end
 
+
   def fzbz(val)
     val%15 == 0 ? "FizzBuzz" : false 
   end
- 
+
 
   def fizz(val)
     val%3 == 0 ? "Fizz" : false
   end
 
+
   def buzz(val)
-     val%5 == 0 ? "Buzz" : val
+    val%5 == 0 ? "Buzz" : val
   end
 
 
